@@ -31,14 +31,16 @@ body {
 }
 
 .curriculo-container header h1 {
-  font-size: 2.8rem;
+  font-size: 1.8rem;
   color: #222;
   margin-bottom: 8px;
+  line-height: q.6;
 }
 
 .curriculo-container header p {
   font-size: 1rem;
   color: #666;
+  line-height: 0.6;
 }
 
 .curriculo-container header a {
@@ -61,6 +63,7 @@ body {
   border-bottom: 2px solid #219ebc;
   padding-bottom: 6px;
   margin-bottom: 15px;
+  line-height: 0.6;
 }
 
 /* Subtítulos */

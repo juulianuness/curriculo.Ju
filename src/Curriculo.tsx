@@ -52,7 +52,7 @@ const curriculoData: CurriculoProps = {
       'Participação em projetos semanais com desafios propostos para simular demandas reais.',
       'Organização do código e foco na experiência do usuário (UX/UI).',
     ],
-    tecnologias: ['Express', 'Postman', 'Render', 'Firebase', 'SQL/MYSQL', 'Netlify', 'Figma'],
+    tecnologias: ['HTML', 'CSS', 'JavaScript', 'React', 'Node.js', 'Json', 'API' , 'Express', 'Postman', 'Render', 'Firebase', 'SQL/MYSQL', 'Netlify', 'Figma' ],
   },
   experienciaProfissional: [
     {

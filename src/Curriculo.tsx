@@ -39,7 +39,7 @@ const curriculoData: CurriculoProps = {
   email: 'juuliacristiny@gmail.com',
   linkedin: 'https://linkedin.com/in/julia-vieira-nuness/',
   sobre:
-    'Estudante de desenvolvimento web. Tenho experiência com HTML, CSS, JavaScript, React e integração com APIs. Participei de projetos práticos no bootcamp da SoulCode Academy, onde pude aplicar conceitos práticos da vivência de frontend e backend. Tenho facilidade em aprender novas ferramentas, boa comunicação e foco em entregar soluções funcionais.',
+    'Com experiência em desenvolvimento Fullstack pelo "Bootcamp React & Node" da SoulCode,  onde Participei de projetos práticos e pude aplicar conceitos práticos da vivência de frontend e backend. Tenho facilidade em aprender novas ferramentas, boa comunicação e foco em entregar soluções funcionais.',
   experienciaTecnologica: {
     titulo: 'SoulCode Academy - Bootcamp intensivo - Fullstack React/Node',
     periodo: '06/2025 – 08/2025',

@@ -1,94 +1,72 @@
-/* Reset básico */
-* {
-  box-sizing: border-box;
-  margin: 0;
-  padding: 0;
-}
-
-/* Corpo */
 body {
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-  background-color: #f5f7fa;
+  margin: 0;
+  padding: 0;
   color: #333;
-  line-height: 1.6;
-  padding: 20px;
+  min-height: 100vh;
+  width: 210mm;          /* largura A4 */
+  background: white;
+  padding: 10mm;       
+  margin: 20px auto;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.08);
+  border-radius: 10px;
+  
 }
 
-/* Container principal do currículo */
-.curriculo-container {
-  max-width: 800px;
-  background-color: #fff;
-  margin: 0 auto;
-  padding: 30px 40px;
-  border-radius: 8px;
-  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+/* Títulos */
+h1 {
+  font-size: 2.5rem;
+  font-weight: 700;
+  margin-bottom: 0.2rem;
+  
 }
 
-/* Cabeçalho */
-.curriculo-container header {
-  text-align: center;
-  margin-bottom: 30px;
-}
-
-.curriculo-container header h1 {
-  font-size: 1.8rem;
-  color: #222;
-  margin-bottom: 8px;
-  line-height: q.6;
-}
-
-.curriculo-container header p {
-  font-size: 1rem;
-  color: #666;
-  line-height: 0.6;
-}
-
-.curriculo-container header a {
-  color: #0077b6;
-  text-decoration: none;
-}
-
-.curriculo-container header a:hover {
-  text-decoration: underline;
-}
-
-/* Seções */
-.curriculo-container section {
-  margin-bottom: 30px;
-}
-
-.curriculo-container section h2 {
-  font-size: 1.8rem;
-  color: #023047;
-  border-bottom: 2px solid #219ebc;
-  padding-bottom: 6px;
-  margin-bottom: 15px;
-  line-height: 0.6;
+h2 {
+  color: #219ebc;
+  margin-top: 2rem;
+  border-bottom: 1px solid #ccc;
+  padding-bottom: 0.3rem;;
 }
 
 /* Subtítulos */
-.curriculo-container section h3 {
-  font-size: 1.3rem;
-  color: #219ebc;
-  margin-bottom: 8px;
+h3 {
+  font-size: 1rem;
+  margin-top: 15px;
+  font-weight: 600;
 }
 
 /* Listas */
-.curriculo-container ul {
-  list-style-type: disc;
-  padding-left: 20px;
-  margin-bottom: 15px;
+ul {
+  padding-left: 18px;
 }
 
-.curriculo-container li {
-  margin-bottom: 8px;
-  font-size: 1rem;
-  color: #444;
+ul li {
+  margin-bottom: 5px;
+  font-size: 0.95rem;
 }
 
-/* Parágrafos */
-.curriculo-container p {
-  font-size: 1rem;
-  margin-bottom: 15px;
-  color: #444;
+/* Links */
+a {
+  color: #219ebc;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+/* Impressão */
+@media print {
+  body {
+    background: white;
+    margin: 0;
+  }
+  .container {
+    margin: 0;
+    box-shadow: none;
+    border-radius: 0;
+    width: 100%;
+    min-height: auto;
+    padding: 15mm;
+  }
 }

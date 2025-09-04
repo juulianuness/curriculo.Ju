@@ -73,7 +73,7 @@ const curriculoData: CurriculoProps = {
     },
     {
       titulo: 'Landing page – Psicóloga',
-      link: 'https://github.com/juulianuness/AtividadeBootstrap',
+      link: 'https://psijaquelinevieira.netlify.app/',
       descricao:
         'Site institucional desenvolvido para a psicóloga Jaqueline Vieira, com o objetivo de testar meus aprendizados em Bootstrap. Não contém nenhuma interação além das usadas diretamente pelo framework.',
     },
